@@ -5,8 +5,8 @@ def multiplie(a, b):
         rst += a
 
     return resultat
+#1
 
-# Exemple d'utilisation de la fonction multiplie
 x = int(input("Saisissez une première valeur: "))
 y = int(input("Saisissez une seconde valeur: "))
 produit = multiplie(x, y)
@@ -15,7 +15,7 @@ print("Le résultat de la multiplication est :", x, "*", y, "=", produit)
 
 
 
-# puissance
+# 2
 
 def puissance(base, exposant):
     rst2 = 1
