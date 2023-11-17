@@ -1,8 +1,8 @@
 def multiplie(a, b):
-    rsst = 0
+    valeur = 0
 
     for i in range(b):
-        rst += a
+        valeur1 += a
 
     return resultat
 #1
@@ -18,14 +18,14 @@ print("Le résultat de la multiplication est :", x, "*", y, "=", produit)
 # 2
 
 def puissance(base, exposant):
-    rst2 = 1
+    valeur2 = 1
 
     for _ in range(exposant):
-        rst2 *= base
+        valeur2 *= base
 
-    return rst2
+    return valeur2
 
 base = int(input("Entrez la base "))
 exposant = int(input("Entrez l'exposant "))
-rst2 = puissance(base, exposant)
+valeur2 = puissance(base, exposant)
 print("Le résultat est :", base, "^", exposant, "=", resultat)
