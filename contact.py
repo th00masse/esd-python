@@ -1,13 +1,13 @@
 # Initialiser un dictionnaire vide pour stocker les contacts
 contacts = {}
 
-# Fonction pour ajouter un contact
-def ajouter_contact(nom, numero):
+# Fonction add contact
+def add_contact(nom, numero):
     contacts[nom] = numero
     print(f"Contact {nom} ajouté avec succès.")
 
-# Fonction pour supprimer un contact
-def supprimer_contact(nom):
+# Fonction supp contact
+def supp_contact(nom):
     if nom in contacts:
         del contacts[nom]
         print(f"Contact {nom} supprimé avec succès.")
